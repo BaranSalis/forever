@@ -1208,3 +1208,16 @@ figure.instagram-item img.insta-image {
   .quantity.buttons_added .minus:focus,
  .quantity.buttons_added .plus:focus {
   outline: none; }
+/* 15. Tablo
+--------------------------------------------------------------*/  
+table {
+  width: auto; /* Tabloyu içeriğe göre genişlet */
+  margin-left: 0; /* Tabloyu sola daya */
+  border-collapse: collapse; /* Hücre kenarlıklarını birleştir */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Hücre kenarlıkları */
+  padding: 8px; /* İçeriğin kenar boşluğu */
+  text-align: center; /* Metni hücrenin sol tarafına hizala */
+}
